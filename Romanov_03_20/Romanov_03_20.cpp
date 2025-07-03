@@ -60,6 +60,9 @@ int main()
             std::cin >> price;
             Car car(mark, nomer, vipusk, price);
             car.WriteOnFile();
+        }else if (choice == 4)
+        {
+            return 0
         }
     }
 }
